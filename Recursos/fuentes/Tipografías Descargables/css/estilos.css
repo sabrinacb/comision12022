@@ -1,0 +1,64 @@
+@font-face {
+    font-family: miFuente;
+    src: url(../fuentes/fuente400.otf);
+    font-weight: 400;
+
+}
+
+@font-face {
+    font-family: miFuente;
+    src: url(../fuentes/fuente500.otf);
+    font-weight: 500;
+
+}
+
+@font-face {
+    font-family: miFuente;
+    src: url(../fuentes/fuente700.otf);
+    font-weight: 700;
+
+}
+
+
+@font-face {
+    font-family: miFuente;
+    src: url(../fuentes/fuente900.otf);
+    font-weight: 900;
+
+}
+
+@font-face {
+    font-family: miFuente2;
+    src: url(../fuentes/Earthgate.otf);
+    font-weight: 700;
+}
+
+
+body {
+
+    font-family: miFuente;
+
+
+}
+
+
+
+
+
+h1 {
+
+    font-weight: 500;
+
+}
+
+h2 {
+    font-family: miFuente2;
+    font-weight: 700;
+
+}
+
+p {
+
+    font-weight: 700;
+
+}
