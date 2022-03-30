@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&display=swap');
+
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+p {
+    font-weight: 300
+}
+
+#parrafo {
+    font-weight: 400;
+    text-transform: uppercase;
+    /*transforma el texto en mayúscula*/
+  
+}
+
+/* se puede utilizar una sóla vez por html*/

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap');
+
+body {
+
+    font-family: 'Archivo', sans-serif;
+    
+}
+
+h1 {
+
+/*
+font-weight:900 ;
+font-stretch:125% ;
+*/
+
+
+font-variation-settings:'wdth' 125 , 'wght' 700;
+
+  
+}
+
+
+p{
+
+    font-variation-settings:'wdth' 65 , 'wght' 900;
+
+}
