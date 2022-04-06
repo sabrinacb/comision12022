@@ -1,0 +1,24 @@
+
+@font-face {
+    font-family: miFuente;
+    src: url(../fuentes/fuente.ttf);
+    font-weight:100 900;
+    font-stretch:500% 1000% ;
+
+}
+
+
+h1 {
+
+font-family: miFuente;
+/*
+font-weight: 100;
+font-stretch: 600%;
+*/
+
+font-variation-settings: 'wght' 100, 'wdth' 200;
+
+
+
+}
+
