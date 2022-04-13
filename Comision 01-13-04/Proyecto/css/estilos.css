@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&family=Source+Serif+4:wght@800&display=swap');
+
+/*
+Relative
+
+100px
+
+
+*/
+
+
+body {
+    font-family: 'Mulish', sans-serif;
+    font-size: 80%;
+    /*el valor por defecto es de 16px
+    90% de 16px*/
+}
+
+
+h1 {
+
+    font-family: 'Source Serif 4', serif;
+    font-weight: 800;
+    font-size:7em;
+
+
+    /* 1em == medida base == 16px
+
+    7em == 16px * 7*/
+}
+
+p {
+    font-weight: 300;
+    font-size: 2em;
+}
+
+#parrafo {
+    font-weight: 400;
+    text-transform: uppercase;
+    /*transforma el texto en mayúscula*/
+    font-size: 1em;
+  
+}
+
+/* se puede utilizar una sóla vez por html*/
+
+@media (max-width: 768px) {
+    body { font-size: 50%;}
+}
