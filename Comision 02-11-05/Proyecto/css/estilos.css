@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&family=Source+Serif+4:wght@800&display=swap');
+
+
+
+
+body {
+    font-family: 'Mulish', sans-serif;
+    font-size: 90%;
+    color: black;
+    /*los vínculos, y algunos elementos de formulario no heredan el color*/
+
+    /* 16px == 100% == 1em*/
+}
+
+p {
+    font-weight: 300;
+    font-size: 2.78em;
+
+}
+
+
+
+
+h1 {
+
+    font-family: 'Source Serif 4', serif;
+    font-weight: 800;
+    font-size: 7.43em;
+
+}
+
+a {
+  
+    text-decoration: none;
+        /*quitar el subrayado*/
+    font-weight: 400;
+    font-size: 2.03em;
+
+}
+/*al a en todos sus estados*/
+
+/*
+:hover => hace referencia a un elemento cuando le paso 
+el mouse por arriba 
+
+*/
+
+a:hover, #vinculo {
+
+color:white;
+background-color:black;
+
+}
+
+
+/*selector grupal es un selector seperado de otro o varios por comas, que permiten que una regla de estilo afecte a varios de ellos
+
+p,h1 { color: red;}
+
+
+*/
+
+
+/*cuando le paso el mouse por arriba al vínculo invierto los colores, y al elemento con id vinculo en su estado normal*/
+
+
+
+
+#vinculo:hover, a {
+
+    color: black;
+    background-color: white;
+
+}
+    
+
+
+
+#parrafo {
+    font-weight: 400;
+    text-transform: uppercase;
+    /*transforma el texto en mayúscula*/
+    font-size: 1.55em;
+
+}
+
+/* se puede utilizar una sóla vez por html*/
+
+
+@media (max-width: 768px) {
+
+    body {
+        font-size: 60%;
+    }
+
+
+}
